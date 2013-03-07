@@ -1,0 +1,13 @@
+div.hero-unit{
+	padding-bottom: 120px;
+
+
+}
+
+div.hero-unit h1{
+	font-size: 100px;
+}
+
+ul.thumbnails h2, ul.thumbnails p {
+	padding-left: 5px;
+}
