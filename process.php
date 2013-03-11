@@ -5,7 +5,7 @@ if(isset($_POST)){
 
 	//form data
 
-	$name = htmlspecialchars($_POST('name'));
+	$name = $_POST('name');
 	$email = htmlspecialchars($_POST('email'));
 	$message = htmlspecialchars($_POST('message'));
 
