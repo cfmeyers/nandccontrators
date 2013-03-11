@@ -5,9 +5,9 @@ if(isset($_POST)){
 
 	//form data
 
-	$name = $_POST('name');
-	$email = htmlspecialchars($_POST('email'));
-	$message = htmlspecialchars($_POST('message'));
+	$name = htmlspecialchars($_POST['name']);
+	$email = htmlspecialchars($_POST['email']);
+	$message = htmlspecialchars($_POST['message']);
 
 	//validation
 	if(empty($name) || empty($email) || empty($message)){
