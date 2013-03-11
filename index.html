@@ -11,7 +11,6 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <style type="text/css">
   body {
-    padding-top: 60px;
     padding-bottom: 40px;
   }
   </style>
@@ -32,34 +31,29 @@
     </head>
 
     <body>
-
-      <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">N & C Contractors</a>
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#">home</a></li>
-                <li><a href="#about">about</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </div>
-      </div>
-
       <div class="container">
 
         <!-- start hero div -->
         <div class="hero-unit">
+
           <h1>N & C Contractors</h1>
-          <h2><em>of Northern Virginia</em></h2>
+
           <div class="span4">
+          <h2><em>of Northern Virginia</em></h2>
           <p>Experts in bathrooms, kitchens, and additions.  For a <strong>free estimate</strong> call us at <strong>703-731-6590</strong> or email <strong>sales@nandccontractors.com</strong></p>
+<!-- Contact Form Start -->
+        </div>
+        <div class="span3 offset3 pull-right">
+          <form method="post" action="process.php">
+           <fieldset>
+             <legend>Email us for a free estimate!</legend>
+             <input type="text" placeholder="Name" id="name" name="name">
+             <input type="text" placeholder="Email Address" id="email" name="email">
+             <textarea rows="3" id="message" name="message"></textarea>
+             <button type="submit" class="btn">Submit</button>
+           </fieldset>
+          </form>
+<!-- Contact Form End -->
 
         </div>
           <!-- <p><a href="#" class="btn btn-primary btn-large">learn more &raquo;</a></p> -->
