@@ -28,7 +28,7 @@ if(isset($_POST)){
 
         //redirect back to form
         header('location: ' . $_SERVER['HTTP_REFERER']);
-    }
+
 }
 
  ?>
