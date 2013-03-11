@@ -25,7 +25,10 @@ if(isset($_POST)){
     mail("sales@nandccontractors.com","New Enquiry",$emailbody,$headers);
 
 	}
-}
 
+        //redirect back to form
+        header('location: ' . $_SERVER['HTTP_REFERER']);
+    }
+}
 
  ?>
